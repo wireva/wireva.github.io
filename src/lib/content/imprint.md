@@ -1,18 +1,17 @@
 # Impressum
 Angaben gemäß § 5 TMG
 
-- Alwin Lohrie
+- Lea Lohrie
 - Benzen 49
 - 29664 Walsrode
 
 ## Kontakt
 
-- Telefon: 05161-6824
-- E-Mail: alwin.lohrie@proton.me
+- E-Mail: website@noteqr.de
 
 ## Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV**
 
-Alwin Lohrie
+Lea Lohrie
 Benzen 49
 29664 Walsrode
 

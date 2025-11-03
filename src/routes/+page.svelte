@@ -3,6 +3,7 @@
 	import Icon from '@iconify/svelte';
 	import SvelteMarkdown from 'svelte-markdown';
 	import { html as bbsVancedContent } from '$lib/content/bbs-vanced.md';
+	import { html as fitchContent } from '$lib/content/fitch.md';
 	import { html as warehouseContent } from '$lib/content/warehouse.md';
 	import { html as pvDashboardContent } from '$lib/content/pv_dashboard.md';
 	import ProjectTile from '$lib/ProjectTile.svelte';
@@ -10,14 +11,24 @@
 
 <main class="p-8 w-full max-w-7xl">
 	<div class="flex items-center gap-8 pt-8">
-		<img
-			class="h-36 rounded-full"
-			src="/meine_fresse_kleiner.webp"
-			alt="Portrait of Alwin Lohrie"
-		/>
+		<img class="h-36 rounded-full" src="/lea.png" alt="Lea" />
 		<div>
-			<h1 class="font-bold text-4xl sm:text-6xl text-white">Alwin Lohrie</h1>
-			<p class="text-md sm:text-2xl">Software Engineer</p>
+			<h1 class="font-bold text-4xl sm:text-6xl text-white">Lea Lohrie</h1>
+			<p class="text-sm sm:text-lg text-gray-200 py-2">CS Student @ RUG 🏳️‍⚧️</p>
+			<div class="flex gap-4 items-center">
+				<a href="https://github.com/niwla23">
+					<Icon icon="bi:github" height="35" class="dash-20" />
+				</a>
+				<a href="https://matrix.to/#/@wireva:nope.chat">
+					<Icon icon="ph:matrix-logo-bold" height="40" class="dash-20" />
+				</a>
+				<a href="https://blahaj.zone/@wireva">
+					<Icon icon="bi:mastodon" height="35" class="dash-20" />
+				</a>
+				<a href="https://bsky.app/profile/wireva.eu">
+					<Icon icon="bi:bluesky" height="35" class="dash-20" />
+				</a>
+			</div>
 		</div>
 	</div>
 	<h2 class="text-3xl pt-16 pb-4">Stuff I can do</h2>
@@ -56,6 +67,12 @@
 	<!-- - Automated Storage System - BBS Vanced - E3DC Dashboard -->
 
 	<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+		<ProjectTile title="BetterFitchVizier">
+			<img src="/fitch.png" alt="BBS Vanced Logo" class="h-20" slot="icon" />
+			<SvelteMarkdown slot="content" source={fitchContent} />
+
+			UI remake for a formal logic proof validator
+		</ProjectTile>
 		<ProjectTile title="BBS Vanced">
 			<img src="/bbs-vanced-logo.png" alt="BBS Vanced Logo" class="h-20" slot="icon" />
 			<SvelteMarkdown slot="content" source={bbsVancedContent} />
