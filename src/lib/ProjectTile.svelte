@@ -6,7 +6,7 @@
 </script>
 
 <button
-	class="bg-green-900/40 p-4 rounded-md flex flex-col gap-2 items-center flex-1 cursor-pointer transition-all transform hover:-translate-y-1"
+	class="bg-pink-900/40 p-4 rounded-md flex flex-col gap-2 items-center flex-1 cursor-pointer transition-all transform hover:-translate-y-1"
 	on:click={() => dialogEl?.showModal()}
 >
 	<!-- <Icon icon="fa:linux" height="50" class="h-20" /> -->
@@ -33,7 +33,7 @@
 			<slot name="content" />
 		</div>
 		<form method="dialog">
-			<button class="p-4 bg-green-600 text-green-50 rounded-lg">Close</button>
+			<button class="p-4 bg-pink-600 text-pink-50 rounded-lg">Close</button>
 		</form>
 	</div>
 </dialog>
