@@ -1,4 +1,4 @@
-import{s as l,e as h,c as d,b as u,f as s,l as o,i as c,n as m}from"../chunks/scheduler.D_EPl68O.js";import{S as g,i as f,c as b,a as p,m as w,t as k,b as v,d as z}from"../chunks/index.D7j4FR0M.js";import{S}from"../chunks/SvelteMarkdown.IVxvDaqX.js";const I=`<h1>Impressum</h1>
+import{s as l,e as h,c as d,b as u,f as s,l as o,i as c,n as m}from"../chunks/scheduler.DcxkI8P8.js";import{S as g,i as f,c as b,a as p,m as w,t as k,b as v,d as z}from"../chunks/index.d5w8pAcp.js";import{S}from"../chunks/SvelteMarkdown.CCcqOLrl.js";const I=`<h1>Impressum</h1>
 <p>Angaben gemäß § 5 TMG</p>
 <ul>
 <li>Lea Lohrie</li>
