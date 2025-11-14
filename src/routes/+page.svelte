@@ -11,7 +11,7 @@
 
 <main class="p-8 w-full max-w-7xl">
 	<div class="flex items-center gap-8 pt-8">
-		<img class="h-36 rounded-full" src="/lea.png" alt="Lea" />
+		<img class="h-36 rounded-full" src="/lea4.png" alt="Lea" />
 		<div>
 			<h1 class="font-bold text-4xl sm:text-6xl text-white">Lea Lohrie</h1>
 			<p class="text-sm sm:text-lg text-gray-200 py-2">CS Student @ RUG 🏳️‍⚧️</p>
