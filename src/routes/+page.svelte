@@ -16,7 +16,7 @@
 			<h1 class="font-bold text-4xl md:text-6xl text-white">Lea Lohrie</h1>
 			<p class="text-sm md:text-lg text-gray-200 py-2">CS Student @ RUG 🏳️‍⚧️</p>
 			<div class="flex gap-4 items-center">
-				<a href="https://github.com/niwla23">
+				<a href="https://github.com/wireva">
 					<Icon icon="bi:github" height="30" class="dash-20" />
 				</a>
 				<a href="https://matrix.to/#/@wireva:nope.chat">

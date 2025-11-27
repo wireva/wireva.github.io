@@ -9,4 +9,4 @@ from a Pi 4 running the 'manager' server. It consists of a Go backend that conne
 The frontend is built using React and Tailwind. One can fuzzy search (powered by typesense) for parts that are stored, request their delivery or add new parts with name,
 description, tags and an image.
 
-[Source Code](https://github.com/niwla23/lagersystem)
+[Source Code](https://github.com/wireva/lagersystem)

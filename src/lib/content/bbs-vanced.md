@@ -7,4 +7,4 @@ When I started to allow users to add exams to be shown alongside the timetable, 
 framework with server-side capabilities I decided to go with a simple self-hosted PocketBase backend. I started to introduce pro features to cover
 server costs, which has allowed me to learn about payment processing (I used PayPal)
 
-[Source Code](https://github.com/niwla23/bbs-vanced)
+[Source Code](https://github.com/wireva/bbs-vanced)
